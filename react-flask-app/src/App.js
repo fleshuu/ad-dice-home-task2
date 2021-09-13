@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import logo from './logo.svg';
+import crud from './crud.js';
 import './App.css';
 
 function App() {
@@ -26,7 +27,16 @@ function App() {
           Learn React
         </a>
         <p>The current time is {currentTime}.</p>
+        <a
+            className="App-link"
+            href={crud}
+        >
+          Crud
+        </a>
       </header>
+      <div>
+
+      </div>
     </div>
   );
 }
